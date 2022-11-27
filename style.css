@@ -1,0 +1,102 @@
+body{
+  background: #fff;  
+}
+.cart{
+	margin: 10px 0;
+	background-color: #F6F5FA;
+	padding: 60px 0;
+}
+.cart-item{
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 15px 20px;
+	margin-bottom: 20px;
+}
+.center-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.cart-item img{
+	width: 90px;
+    
+}
+
+.cart-item .form-control{
+	background-color: #F6F5FA;
+	border: none;
+    width: 65px;
+    border-radius: 10px!important;
+    font-weight: 700;
+    font-size: 20px;
+}
+.input-group{
+	width: unset;
+	flex-wrap: nowrap;
+}
+.de-but{
+    color: red;
+}
+.status{
+	text-align: right;
+    padding-right: 150px;
+	
+}
+.check-out{
+    float: right;
+    padding: 10px 30px;
+	font-size: 19px;
+	background-color: #2FBE70;
+	border: none;
+}
+#due-price{
+	color: red;
+}
+i{
+	font-size: 30px;
+	font-weight: 900;
+}
+/* loging form */
+
+.login-cart{
+	width: 400px;
+	height: 500px;
+	margin: auto;
+	background-color: rgba(249, 203, 210, 0.826);
+	padding: 60px 0;
+	position: relative;
+	border-radius: 10px;
+	box-shadow: 10px 10px 20px white, -10px -10px 20px white;
+	
+}
+.logo{
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	
+
+}
+.infom{
+	position: absolute;
+	top: 175px;
+	left: 100px;
+
+	
+}
+input{
+	border-radius: 5%;
+
+}
+.login-buttom{
+	background-color: rgba(124, 52, 90, 0.792);
+	font-size: 20px;
+	padding: 5px 30px;
+	margin: 45px;
+	border-radius: 35px;
+	
+}

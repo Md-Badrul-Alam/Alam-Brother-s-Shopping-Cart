@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>My Shopping Cart</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1 class="text-center py-5">Alam Brother's Shopping Cart.</h1>
+            <div class="cart">
+                <div class="col-md-7 col-lg-10 mx-auto">
+                    <div id="Potatoes-display" class="cart-item">
+                        <div class="row">
+                            <div class="col-md-7 center-item">
+                                <img src="./images/pngwing.com (35).png" alt="">
+                                <h5 class="px-5">Potatoes :- (Per kg = 29.99)</h5>
+                            </div>
+                            <div class="col-md-5 center-item">
+                                <div class="input-group number-spinner">
+                                <button id="Potatoes-button-minus" class="btn btn-default"><i class="fa-solid fa-minus"></i></button>
+                                <input id="Potatoes-input" type="number" min="0" class="form-control text-center" value="0">
+                                <button id="Potatoes-button-plus" class="btn btn-default"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <h5 class="px-5">$ <span id="Potatoes-total">000.00</span></h5>
+                                <i id="Potatoes-remove" class="fa-solid fa-xmark de-but"></i>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div id="Onion-display" class="cart-item">
+                        <div class="row">
+                            <div class="col-md-7 center-item">
+                                <img src="./images/pngwing.com (50).png" alt="">
+                                <h5 class="px-5">Onion :- (Per kg = 49.99)</h5>
+                            </div>
+                            <div class="col-md-5 center-item">
+                                <div class="input-group number-spinner">
+                                <button id="Onion-button-minus" class="btn btn-default"><i class="fa-solid fa-minus"></i></button>
+                                <input id="Onion-input" type="number" min="0" class="form-control text-center" value="0">
+                                <button id="Onion-button-plus" class="btn btn-default"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <h5 class="px-5">$ <span id="Onion-total">000.00</span></h5>
+                                <i id="Onion-remove" class="fa-solid fa-xmark de-but"></i>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    <div id="ginger-display" class="cart-item">
+                        <div class="row">
+                            <div class="col-md-7 center-item">
+                                <img src="./images/pngwing.com (21).png" alt="">
+                                <h5 class="px-5">Ginger :- (Per kg = 149.99)</h5>
+                            </div>
+                            <div class="col-md-5 center-item">
+                                <div class="input-group number-spinner">
+                                <button id="ginger-button-minus" class="btn btn-default"><i class="fa-solid fa-minus"></i></button>
+                                <input id="ginger-input" type="number" min="0" class="form-control text-center" value="0">
+                                <button id="ginger-button-plus" class="btn btn-default"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <h5 class="px-5">$ <span id="ginger-total">000.00</span></h5>
+                                <i id="ginger-remove" class="fa-solid fa-xmark de-but "></i>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <div class="row">
+      
+                           <div class="col-md-8 py-5">
+                              <h5>Subtotal: </h5>
+                              <h5>Tax:</h5>
+                              <h5>Total:</h5>
+                              <h5>Credit:</h5>
+                              <h5>Due:</h5>
+                           </div>
+      
+                           <div class="col-md-4 status py-5">
+                              <h5>$ <span id="sub-total">000.00</span> </h5>
+                              <h5>$ <span id="tax-ammount">000.00</span> </h5>
+                              <h5>$ <span id="total-price">000.00</span></h5>
+                              <input id="credit-price" type="number" placeholder="$ 000.00">
+                              <h5>$ <span id="due-price">000.00</span></h5>
+                              <div class="col-md-12 pt-4 pb-4">
+                                <button id="Submit-button" type="button" class="btn btn-success check-out">Submit</button>
+                             </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-12 pt-4 pb-4">
+                        <button id="check-btn" type="button" class="btn btn-success check-out">Check Out</button>
+                     </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+
+    
+</body>
+</html>
